@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
   title: 'Javari Boating | CR AudioViz AI — EIN 39-3646201',
-  description: 'AI-powered boating and marina platform'
+  description: 'AI-powered boating and marina platform',
   openGraph: { title: 'Javari Boating | CR AudioViz AI — EIN 39-3646201', description: 'AI-powered boating and marina platform', type: 'website' },,
 }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
